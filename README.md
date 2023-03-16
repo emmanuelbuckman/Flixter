@@ -4,7 +4,7 @@ Submitted by: **Emmanuel Buckman**
 
 **Flixter** is a movie browsing app that displays movies that are now showing. 
 
-Time spent: **5** hours spent in total
+Time spent: **11** hours spent in total
 
 ## Required Features
 
