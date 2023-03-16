@@ -17,6 +17,9 @@
 		1935C2F9299349D600EE6872 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C2F8299349D600EE6872 /* MovieCell.swift */; };
 		1935C2FD299485B900EE6872 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 1935C2FC299485B900EE6872 /* Nuke */; };
 		1935C3012994A52D00EE6872 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935C3002994A52D00EE6872 /* DetailViewController.swift */; };
+		19EE53C7299DEEA7000CB65C /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE53C6299DEEA7000CB65C /* PostersViewController.swift */; };
+		19EE53C9299DF105000CB65C /* Poster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE53C8299DF105000CB65C /* Poster.swift */; };
+		19EE53CB299DFD0A000CB65C /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE53CA299DFD0A000CB65C /* PosterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		1935C2F42993421600EE6872 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		1935C2F8299349D600EE6872 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		1935C3002994A52D00EE6872 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		19EE53C6299DEEA7000CB65C /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		19EE53C8299DF105000CB65C /* Poster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poster.swift; sourceTree = "<group>"; };
+		19EE53CA299DFD0A000CB65C /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,14 +71,17 @@
 			isa = PBXGroup;
 			children = (
 				1935C2F42993421600EE6872 /* Movie.swift */,
+				19EE53C8299DF105000CB65C /* Poster.swift */,
 				1935C2F8299349D600EE6872 /* MovieCell.swift */,
-				1935C2E029933F6E00EE6872 /* AppDelegate.swift */,
-				1935C2E229933F6E00EE6872 /* SceneDelegate.swift */,
+				19EE53CA299DFD0A000CB65C /* PosterCell.swift */,
 				1935C2E429933F6E00EE6872 /* MovieViewController.swift */,
 				1935C3002994A52D00EE6872 /* DetailViewController.swift */,
+				19EE53C6299DEEA7000CB65C /* PostersViewController.swift */,
 				1935C2E629933F6E00EE6872 /* Main.storyboard */,
 				1935C2E929933F7000EE6872 /* Assets.xcassets */,
 				1935C2EB29933F7000EE6872 /* LaunchScreen.storyboard */,
+				1935C2E029933F6E00EE6872 /* AppDelegate.swift */,
+				1935C2E229933F6E00EE6872 /* SceneDelegate.swift */,
 				1935C2EE29933F7000EE6872 /* Info.plist */,
 			);
 			path = Flixter;
@@ -157,9 +166,12 @@
 			files = (
 				1935C2E529933F6E00EE6872 /* MovieViewController.swift in Sources */,
 				1935C2E129933F6E00EE6872 /* AppDelegate.swift in Sources */,
+				19EE53CB299DFD0A000CB65C /* PosterCell.swift in Sources */,
 				1935C2F9299349D600EE6872 /* MovieCell.swift in Sources */,
 				1935C2F52993421600EE6872 /* Movie.swift in Sources */,
+				19EE53C9299DF105000CB65C /* Poster.swift in Sources */,
 				1935C2E329933F6E00EE6872 /* SceneDelegate.swift in Sources */,
+				19EE53C7299DEEA7000CB65C /* PostersViewController.swift in Sources */,
 				1935C3012994A52D00EE6872 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

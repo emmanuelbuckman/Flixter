@@ -27,11 +27,16 @@ class MovieCell: UITableViewCell {
     }
     
     func configure(with movie: Movie) {
-        movieTitleLabel.text = movie.movieTitle
-        movieOverviewLabel.text = movie.movieOverview
+        movieTitleLabel.text = movie.title
+        movieOverviewLabel.text = movie.overview
+        
+        let baselmageUrl = "https://www.themoviedb.org/t/p/w1280"
+        let fullImage = URL(string: baselmageUrl + movie.backdrop_path.absoluteString)!
+//        I Do any additional setup after loading the view.
+        Nuke.loadImage (with: fullImage, into: movieImageView)
 
         // Load image async via Nuke library image loading helper method
-        Nuke.loadImage(with: movie.posterPath, into: movieImageView)
+//        Nuke.loadImage(with: movie.poster_path, into: movieImageView)
     }
 
 }

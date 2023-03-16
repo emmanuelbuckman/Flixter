@@ -22,16 +22,21 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let baselmageUrl = "https://www.themoviedb.org/t/p/w1280"
+        let fullImage = URL(string: baselmageUrl + movie.backdrop_path.absoluteString)!
+//        I Do any additional setup after loading the view.
+        Nuke.loadImage (with: fullImage, into: backdropImageView)
 
         // Do any additional setup after loading the view.
-        Nuke.loadImage(with: movie.backdropPath, into: backdropImageView)
+//        Nuke.loadImage(with: movie.backdrop_path, into: backdropImageView)
 
         // Set labels with the associated track values.
-        movieTitle.text = movie.movieTitle
-        movieOverview.text = movie.movieOverview
+        movieTitle.text = movie.title
+        movieOverview.text = movie.overview
         popularity.text = String(movie.popularity)
-        votes.text = String(movie.votes)
-        voteAverage.text = String(movie.voteAverage)
+        votes.text = String(movie.vote_count)
+        voteAverage.text = String(movie.vote_average)
     }
     
 
